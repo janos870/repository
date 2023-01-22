@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills styles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logos">
+        <figure class="html">
+            <img src="assets/HTML5_logo.png" alt="HTML" width="80">
+        </figure>
+        <figure class="css">
+            <img src="assets/css.png" alt="CSS" width="55">
+        </figure>
+        <figure class="js">
+            <img src="assets/js-logo.png" alt="JS" width="85">
+        </figure>
+        <figure class="git">
+            <img src="assets/Git_Logo.png" alt="GIT" width="75">
+        </figure>
+        <figure class="php">
+            <img src="assets/php-logo.png" alt="PHP" width="85">
+        </figure>
+        <figure class="bootstrap">
+            <img src="assets/bootstrap-logo(0).png" alt="BOOTSTRAP" width="80">
+        </figure>
+    </div>
+</body>
+</html>
