@@ -1,0 +1,67 @@
+/*  = = = css reset  = = = */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+div.logos{
+    display: flex;
+    padding: 5rem;
+    background-color: #fad1d1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div figure{
+    margin: 2rem;
+}
+
+figure.html{
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 1rem;
+    border-inline: 5px solid rgb(255, 60, 0);
+}
+
+figure.css{
+    border: 1px solid blue;
+    border-radius: 100%;
+    padding: 1rem 1.8rem;
+    border-inline: 5px solid blue;
+}
+
+
+figure.js{
+    border: 1px solid rgb(192, 192, 19);
+    border-radius: 100%;
+    padding: 1rem 1rem;
+    border-inline: 5px solid rgb(192, 192, 19);
+}
+
+figure.git{
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 1.2rem 1.2rem;
+    border-inline: 5px solid ;
+}
+
+figure.php{
+    border: 1px solid rgb(115, 115, 143);
+    border-radius: 100%;
+    padding: 1rem;
+    border-inline: 5px solid rgb(94, 94, 161);;
+}
+
+figure.bootstrap{
+    border: 1px solid rgb(150, 71, 150);
+    border-radius: 100%;
+    padding: 1.2rem;
+    border-inline: 5px solid rgb(150, 71, 150);
+}
+
