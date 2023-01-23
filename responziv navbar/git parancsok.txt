@@ -1,0 +1,14 @@
+// Git paracsok
+
+git init = helyi repository 
+
+git log = naplózás, listázás
+
+git push origin master
+    push -u origin master = Az -u parcsal megjegyzi a pusholás helyét ez esetben az origin mastert, továbbá elég lessz csupán a git push parancs.
+
+git pull origin master --allow unrealated = ha véletlen nem pulllol akkor ay allow unrealated segithet.
+
+git reamote add origin (link github repo)
+
+
