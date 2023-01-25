@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideing navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Mulish:wght@200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Mulish:wght@200&family=Open+Sans:wght@300&family=Source+Code+Pro:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="profileMenu">
+            <span id="closeProfile">
+                <i class="fa fa-times"></i>
+            </span>
+            <figure class="profile-img">
+                <img src="assets/profile-img.png" alt="profile" width="100">
+                <figcaption>
+                    <h2>Balogh János</h2>
+                    <h3>frontend developer</h3>
+                </figcaption>
+                <figcaption>
+                    <i class="fa fa-location-dot"></i>
+                    <spen>from</spen>
+                    <h4>Budapest, HU</h4>
+                </figcaption>
+            </figure>
+            <figure class="logo-img-2">
+                <img src="assets/jb_weblogo.png" alt="web-logo" width="200px" height="150">
+            </figure>
+        </div>
+        <figure class="logo-img">
+            <!-- <img src="assets/jb_weblogo-2 (2).png" alt="web-logo" width="100px" height="40px"> -->
+        </figure>
+        <span id="openProfile">
+            <i class="fa fa-user"></i>
+        </span>
+        <span id="btn">
+            <i class="fi-align-justify"></i>
+        </span>
+    </header>
+    <nav id="nav">
+        <span id="closeMenu">
+            <i class="fa fa-times"></i>
+        </span>
+        <ul>
+            <li class="btn active"><i class="fa fa-home"></i><a href="home.html">Főoldal</a></li>
+            <li class="btn"><i class="fa fa-address-card"></i><a href="about-me.html">Rólam</a></li>
+            <li class="btn"><i class="fa fa-envelope"></i><a href="contact.html">Kapcsolat</a></li>
+            <li class="btn"><i class="fa fa-comment"></i><a href="feedback.html">Feedback</a></li>
+            <li class="btn"><i class="fa fa-camera"></i><a href="gallery.html">Galéria</a></li>
+        </ul>
+    </nav>
+    <script>
+        // Nav .button open, close icon, navbar menu function
+
+        const btn = document.getElementById('btn')
+        const nav = document.getElementById('nav')
+        const closeMenu = document.getElementById('closeMenu')
+
+
+        btn.addEventListener('click', function (event){
+            nav.classList.toggle('menu-active')
+        })
+        closeMenu.addEventListener('click', function (event){
+            nav.classList.toggle('menu-active')
+        })
+
+        // Profile avtive menu open, close function
+
+        const openProfile = document.getElementById('openProfile')
+        const profileMenu = document.getElementById('profileMenu')
+        const closeProfile = document.getElementById('closeProfile')
+
+
+        openProfile.addEventListener('click', function (event){
+            profileMenu.classList.toggle('menu-profile')
+        })
+        closeProfile.addEventListener('click', function (event){
+            profileMenu.classList.toggle('menu-profile')
+        })
+
+    </script>
+</body>
+</html>
